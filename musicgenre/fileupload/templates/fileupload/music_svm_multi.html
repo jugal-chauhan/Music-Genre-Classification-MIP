@@ -10,22 +10,6 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-    <!-- CSS Files -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/static/css/material-kit.css" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="/static/css/jquery.fileupload-ui.css">
-<!-- CSS adjustments for browsers with JavaScript disabled -->
-<noscript><link rel="stylesheet" href="/static/css/jquery.fileupload-ui-noscript.css"></noscript>
-
-<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-
-
 <style type="text/css">
     
     .col-md-4 {
@@ -210,20 +194,9 @@ function isMulti(){
                     <button data-ng-controller="FileDestroyController" type="button" class="btn btn-warning destroy" data-ng-click="file.$cancel()" data-ng-hide="!file.$cancel">
                         <i class="glyphicon glyphicon-trash"></i>
                         <span>Cancel</span> 
-                    </button> 
-                    
-                    
-                   
-
-                     
-                    
+                    </button>    
                 </td>
-                
-
-
             </tr>
-            
-
         </table>
         <div data-ng-repeat="file in queue">
         <button data-ng-controller="FileDestroyController" type="button" class="btn btn-info " data-ng-click="" 
@@ -245,54 +218,4 @@ function isMulti(){
 </footer>
  
 </body>
-   <!--   Core JS Files   -->
-    <script src="/static/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="/static/js/material.min.js"></script>
-
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="/static/js/nouislider.min.js" type="text/javascript"></script>
-
-    <!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-    <script src="/static/js/bootstrap-datepicker.js" type="text/javascript"></script>
-
-    <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-    <script src="/static/js/material-kit.js" type="text/javascript"></script>
-
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
-<!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
-<script src="/static/js/vendor/jquery.ui.widget.js"></script>
-<!-- The Load Image plugin is included for the preview images and image resizing functionality -->
-<script src="/static/js/load-image.min.js"></script>
-<!-- The Canvas to Blob plugin is included for image resizing functionality -->
-<script src="/static/js/canvas-to-blob.min.js"></script>
-<!-- Bootstrap JS is not required, but included for the responsive demo navigation -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<!-- blueimp Gallery script -->
-<script src="/static/js/jquery.blueimp-gallery.min.js"></script>
-<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
-<script src="/static/js/jquery.iframe-transport.js"></script>
-<!-- The basic File Upload plugin -->
-<script src="/static/js/jquery.fileupload.js"></script>
-<!-- The File Upload processing plugin -->
-<script src="/static/js/jquery.fileupload-process.js"></script>
-<!-- The File Upload image preview & resize plugin -->
-<script src="/static/js/jquery.fileupload-image.js"></script>
-<!-- The File Upload audio preview plugin -->
-<script src="/static/js/jquery.fileupload-audio.js"></script>
-<!-- The File Upload video preview plugin -->
-<script src="/static/js/jquery.fileupload-video.js"></script>
-<!-- The File Upload validation plugin -->
-<script src="/static/js/jquery.fileupload-validate.js"></script>
-<!-- The File Upload Angular JS module -->
-<script src="/static/js/jquery.fileupload-angular.js"></script>
-<!-- The main application script -->
-<script src="/static/js/app.js"></script>
-<script src="/static/js/csrf.js"></script>
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-
 </html>
-
